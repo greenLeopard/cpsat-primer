@@ -1,10 +1,10 @@
 """
 This file runs the actual benchmark on the instances.
 
-Slurminade: This script uses the slurminade package to distribute the benchmark on a cluster. If you do not have a slurm-cluster, it will run the benchmark locally.
+Slurminade: This script uses the slurminade package to distribute the benchmark on a cluster.
+If you do not have a slurm-cluster, it will run the benchmark locally.
 AlgBench: This script uses the AlgBench package to capture and manage the results
 """
-
 
 import logging
 import random
